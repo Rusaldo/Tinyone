@@ -1,0 +1,20 @@
+.header {
+  background: $yellow;
+}
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 0;
+}
+@media screen and (max-width: $tablet) {
+  .header__wrapper {
+    padding: 2rem 0;
+  }
+}
+@media screen and (max-width: $phone) {
+  .header__wrapper {
+    flex-direction: column;
+  }
+}

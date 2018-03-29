@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 150px;
+  overflow: hidden;
+}
+.logo__text {
+  font-size: 3rem;
+  font-weight: 700;
+  color: $black;
+  margin-left: 1rem;  
+  padding-bottom: 5px;
+}
