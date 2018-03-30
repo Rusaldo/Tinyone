@@ -1,0 +1,42 @@
+.contact {
+  background: $black;
+  padding: 9rem 0;
+}
+.contact__section-heading {
+  color: $yellow;
+}
+.contact__section-sub-heading {
+  color: $lightgrey;
+}
+.contact__form {
+  margin: 0 auto;
+  max-width: 720px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+.contact__input-field {
+  height: 4.6rem;
+  padding: 2rem;
+  border: 0;
+  width: 100%;
+  margin-right: 2rem;
+}
+input[type="text"].contact__input-field {
+  border-radius: 3px;
+}
+.contact__social {
+  margin: 0 auto;
+}
+@media screen and (max-width: $tablet) {
+
+
+}
+@media screen and (max-width: $phone) {
+  .contact__form {
+    flex-direction: column;
+  }
+  .contact__input-field {
+    margin: 0 0 3rem 0;
+  }
+}
