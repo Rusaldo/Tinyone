@@ -1,0 +1,59 @@
+.features {
+  padding: 11rem 0;
+}
+.features__list {
+  margin: 5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.features__feature {
+  width: 33.33333%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.feature__icon {
+  min-width: 50px;
+  height: 50px;
+  margin-right: 2rem;
+}
+.feature__icon_1 {
+  background: url(../../img/icons-sprite.png) 0 -5px;
+}
+.feature__icon_2 {
+  background: url(../../img/icons-sprite.png) -60px -5px;
+}
+.feature__icon_3 {
+  background: url(../../img/icons-sprite.png) -115px -5px;
+}
+.feature__icon_4 {
+  background: url(../../img/icons-sprite.png) -180px -5px;
+}
+.feature__icon_5 {
+  background: url(../../img/icons-sprite.png) -249px -5px;
+}
+.feature__icon_6 {
+  background: url(../../img/icons-sprite.png) -320px -5px;
+}
+.feature__heading {
+  color: $black;
+  font-size: 2.2rem;
+}
+.feature__description {
+  color: $lightgrey;
+}
+@media screen and (max-width: $tablet) {
+  .features {
+    padding: 7rem 0;
+  }
+  .features__feature {
+    width: 50%;
+  }
+}
+@media screen and (max-width: $phone) {
+  .features__feature {
+    width: 100%;
+  }
+}

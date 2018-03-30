@@ -54,11 +54,12 @@ a {
   margin-bottom: 2rem;
 }
 .section-sub-heading {
+  max-width: 730px;
   text-align: center;
   font-size: 2rem;
   font-weight: 400;
   color: $darkgrey;
-  margin-bottom: 4rem;
+  margin: 0 auto 4rem;
 }
 // -----------------------------
 @media screen and (max-width: $tablet) {
