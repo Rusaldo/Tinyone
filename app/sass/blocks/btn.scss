@@ -1,0 +1,19 @@
+.btn {
+  display: inline-block;
+  background: $yellow;
+  border: 2px solid $black;
+  border-radius: 3px;
+  padding: 2rem 3.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background .2s, color .2s;
+  &:hover {
+    background: $black;
+    color: $yellow;
+  }
+}
+input[type="submit"].btn {
+  border-radius: 3px;
+}

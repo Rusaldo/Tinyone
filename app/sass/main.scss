@@ -3,7 +3,15 @@
 @import "fonts.scss";
 @import "mixins.scss";
 @import "global.scss";
-
+//----------------------------------
+@import "blocks/btn.scss";
 @import "blocks/logo.scss";
 @import "blocks/menu.scss";
-@import "blocks/header.scss";
+@import "blocks/social.scss";
+@import "blocks/platforms.scss";
+//----------------------------------
+@import "blocks/1-header.scss";
+@import "blocks/2-hero.scss";
+@import "blocks/3-features.scss";
+@import "blocks/4-contact.scss";
+@import "blocks/5-footer.scss";

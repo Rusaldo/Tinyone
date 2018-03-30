@@ -45,6 +45,22 @@ a {
   margin: 0 auto;
 }
 // -----------------------------
+.section-heading {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: $black;
+  margin-bottom: 2rem;
+}
+.section-sub-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  color: $darkgrey;
+  margin-bottom: 4rem;
+}
+// -----------------------------
 @media screen and (max-width: $tablet) {
   html {
     font-size: 9px;

@@ -1,0 +1,26 @@
+.platforms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 181px;
+  height: 42px;
+}
+.platforms__link {
+  display: block;
+  transition: opacity .2s;
+  &:hover {
+    opacity: .7
+  }
+}
+.platforms__link_apple {
+  width: 33px; height: 39px;
+  background: url('../../img/platforms-sprite.png') -69px -10px;
+}
+.platforms__link_android {
+  width: 33px; height: 39px;
+  background: url('../../img/platforms-sprite.png') -122px -10px;
+}
+.platforms__link_windows {
+  width: 39px; height: 40px;
+  background: url('../../img/platforms-sprite.png') -10px -10px;
+}

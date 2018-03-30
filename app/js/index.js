@@ -1,1 +1,1 @@
-console.log("Hello duuuude");
+document.querySelector(".slider__button_1").onclick=function(){document.querySelector(".slider__viewport").style.transform="translateX(0)"},document.querySelector(".slider__button_2").onclick=function(){document.querySelector(".slider__viewport").style.transform="translateX(-33.33333%)"},document.querySelector(".slider__button_3").onclick=function(){document.querySelector(".slider__viewport").style.transform="translateX(-66.66666%)"};

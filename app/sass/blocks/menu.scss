@@ -1,12 +1,9 @@
-.menu {
-
-}
 .menu__list {
   display: flex;
 }
 .menu__item {
   &:not(:first-child) {
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 }
 .menu__link {

@@ -8,28 +8,95 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="header" id="header">
-    <div class="header__wrapper wrapper">
-      <a class="logo header__logo" href="#">
-        <img class="logo__img" src="img/logo.png" alt="Fingerprint">
-        <strong class="logo__text">tinyone</strong>
-      </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a class="menu__link" href="#">Features</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Support</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Blog</a>
-          </li>
-        </ul>
-        <button class="toggle menu__toggle" type="button">MENU</button>
-      </nav>
+  <section class="hero">
+    <div class="hero__wrapper wrapper">
+      <header class="header" id="header">
+        <nav class="header__nav nav">
+          <a class="logo header__logo" href="#">
+            <img class="logo__img" src="img/logo.png" alt="Fingerprint">
+            <strong class="logo__text">tinyone</strong>
+          </a>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Features</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Support</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="hero__slider slider">
+        <div class="slider__viewport">
+          <section class="slider__slide slider__slide_1 hero__slide">
+            <article class="welcome hero__welcome">
+              <h2 class="welcome__section-heading section-heading">Inspire your inspiration</h2>
+              <h3 class="welcome__section-sub-heading section-sub-heading">Simple to use for your app, products showcase and your inspiration</h3>
+              <p class="welcome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+              <ul class="welcome__platforms platforms">
+                <li class="platforms__item">
+                  <a class="platforms__link platforms__link_apple" href="#"></a>
+                </li>
+                <li class="platforms__item">
+                  <a class="platforms__link platforms__link_android" href="#"></a>
+                </li>
+                <li class="platforms__item">
+                  <a class="platforms__link platforms__link_windows" href="#"></a>
+                </li>
+              </ul>
+            </article>
+            <section class="hero__picture">
+              <img class="hero__img" src="img/ipad.png" width="316" height="470" alt="Ipad">
+            </section>
+          </section>
+          <section class="slider__slide slider__slide_2 hero__slide">
+            <article class="welcome hero__welcome">
+              <h2 class="welcome__section-heading section-heading">Inspire your inspiration</h2>
+              <h3 class="welcome__section-sub-heading section-sub-heading">Simple to use for your app, products showcase and your inspiration</h3>
+              <p class="welcome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+              <ul class="welcome__platforms platforms">
+                <li class="platforms__item">
+                  <a class="platforms__link platforms__link_apple" href="#"></a>
+                </li>
+                <li class="platforms__item">
+                  <a class="platforms__link platforms__link_android" href="#"></a>
+                </li>
+                <li class="platforms__item">
+                  <a class="platforms__link platforms__link_windows" href="#"></a>
+                </li>
+              </ul>
+            </article>
+          </section>
+          <section class="slider__slide slider__slide_3 hero__slide">
+            <article class="welcome hero__welcome">
+              <h2 class="welcome__section-heading section-heading">Inspire your inspiration</h2>
+              <h3 class="welcome__section-sub-heading section-sub-heading">Simple to use for your app, products showcase and your inspiration</h3>
+              <p class="welcome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+              <ul class="welcome__platforms platforms">
+                <li class="platforms__item">
+                  <a class="platforms__link platforms__link_apple" href="#"></a>
+                </li>
+                <li class="platforms__item">
+                  <a class="platforms__link platforms__link_android" href="#"></a>
+                </li>
+                <li class="platforms__item">
+                  <a class="platforms__link platforms__link_windows" href="#"></a>
+                </li>
+              </ul>
+            </article>
+          </section>
+        </div>
+        <div class="slider__buttons radio">
+          <input type="radio" class="slider__button_1 radio-btn radio-btn_1" name="radio-slider">
+          <input type="radio" class="slider__button_2 radio-btn radio-btn_2" name="radio-slider">
+          <input type="radio" class="slider__button_3 radio-btn radio-btn_3" name="radio-slider">
+        </div>
+      </div>
     </div>
-  </header>
+  </section>
   <!--JavaScripts-->
   <script src="js/index.js"></script>
 </body>

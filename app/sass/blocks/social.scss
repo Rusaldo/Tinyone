@@ -1,0 +1,29 @@
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+.social__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-image: url(../../img/social-sprite.png);
+  transition: opacity .2s;
+  &:hover {
+    opacity: .7;
+  }
+}
+.social__link_facebook {
+  background-position: -10px -10px;
+}
+.social__link_twitter {
+  background-position: -66px -10px;
+}
+.social__link_google {
+  background-position: -122px -10px;
+}
+.social__link_pinterist {
+  background-position: -178px -10px;
+}
