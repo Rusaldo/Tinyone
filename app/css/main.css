@@ -710,3 +710,48 @@ input[type="text"].contact__input-field {
     margin: 0 0 3rem 0;
   }
 }
+
+.footer {
+  background: #010101;
+  color: #ffffff;
+  padding: 5rem 0 14rem;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 5rem 0;
+  }
+  .contacts__item {
+    padding: 1rem;
+  }
+  .footer__link {
+    display: inline-block;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    text-align: center;
+    border-top: 1px solid #555555;
+  }
+  .contacts {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}

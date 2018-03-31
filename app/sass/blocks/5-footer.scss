@@ -1,0 +1,37 @@
+.footer {
+  background: $black;
+  color: $white;
+  padding: 5rem 0 14rem;
+}
+.footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer__link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+@media screen and (max-width: $tablet) {
+  .footer {
+    padding: 5rem 0;
+  }
+  .contacts__item {
+    padding: 1rem;
+  }
+  .footer__link {
+    display: inline-block;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: $phone) {
+  .footer {
+    text-align: center;
+    border-top: 1px solid $grey;
+  }
+  .contacts {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
